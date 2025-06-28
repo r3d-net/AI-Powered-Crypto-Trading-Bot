@@ -5,20 +5,15 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Overview
-🤖 AI-Powered Crypto Trading Bot with Docker & Binance Integration
-A Python-based cryptocurrency trading bot that uses moving average crossover strategies to identify trade opportunities. Features real-time price analysis from CoinGecko, paper trading simulation, and live trading on Binance. Fully containerized with Docker for easy deployment.
+A Python application that analyzes live cryptocurrency price data, applies AI/rule-based strategies to identify trade opportunities, simulates trades (paper trading), and runs inside a Docker container. Now supports real trading on Binance.
 
-## Key Features
-📊 Real-time crypto price analysis
-🤖 Moving average crossover strategy
-💰 Paper trading & live Binance trading
-📈 Automated trade logging to CSV
-🐳 Docker containerization
-⏰ Scheduled trading (every 5-10 minutes)
+## Features
+- Fetches live crypto prices from CoinGecko
+- Implements a moving average crossover strategy
+- Simulates trades and logs them to CSV
+- Runs on a schedule (every 5–10 minutes)
+- Fully containerized with Docker
 - **Supports real trading on Binance (with API keys)**
-
-### Perfect for
-Crypto enthusiasts, algorithmic trading beginners, and developers learning automated trading strategies.
 
 ## Quick Start
 
@@ -30,8 +25,8 @@ Crypto enthusiasts, algorithmic trading beginners, and developers learning autom
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/ai-crypto-trading-bot.git
-   cd ai-crypto-trading-bot
+   git clone https://github.com/r3d-net/AI-Powered-Crypto-Trading-Bot.git
+   cd AI-Powered-Crypto-Trading-Bot
    ```
 
 2. **Build Docker Image**
